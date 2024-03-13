@@ -1,0 +1,40 @@
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid{
+  display: grid;  
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-color: lightgray;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.square{
+  background-color: white;
+  width: 110px;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+svg{
+  stroke-linecap: round;
+  fill: none;
+  stroke-width: 15px;
+}
+
+.Circle{
+  stroke: cadetblue;
+}
+.Cross{
+  stroke: darkcyan;
+}
+
